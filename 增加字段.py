@@ -223,7 +223,66 @@ datalist = [
                 'forkey':''
             },
         ]
-    }
+    },{
+        'remark':'产品表',
+        'tablename':'product_pt',
+        'columns':[
+            {
+                'name': 'pt_mpricea',
+                'remark': '参考售价A',
+                'type': 'decimal(18,5)',
+                'isnull': False,
+                'default': "0",
+                'forkeytab':'',
+                'forkey':''
+            },
+            {
+                'name': 'pt_mpriceb',
+                'remark': '参考售价B',
+                'type': 'decimal(18,5)',
+                'isnull': False,
+                'default': "0",
+                'forkeytab':'',
+                'forkey':''
+            },
+            {
+                'name': 'pt_mpricec',
+                'remark': '参考售价C',
+                'type': 'decimal(18,5)',
+                'isnull': False,
+                'default': "0",
+                'forkeytab':'',
+                'forkey':''
+            },
+            {
+                'name': 'pt_mpriced',
+                'remark': '参考售价D',
+                'type': 'decimal(18,5)',
+                'isnull': False,
+                'default': "0",
+                'forkeytab':'',
+                'forkey':''
+            },
+            {
+                'name': 'pt_mpricee',
+                'remark': '参考售价E',
+                'type': 'decimal(18,5)',
+                'isnull': False,
+                'default': "0",
+                'forkeytab':'',
+                'forkey':''
+            },
+            {
+                'name': 'pt_mpricef',
+                'remark': '参考售价F',
+                'type': 'decimal(18,5)',
+                'isnull': False,
+                'default': "0",
+                'forkeytab':'',
+                'forkey':''
+            },
+        ]
+    },
 ]
 
 iftemp = """--{}
