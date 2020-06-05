@@ -13,8 +13,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'deliveryarea_da',
-                'forkey':'da_cid'
+                'forkeytab': 'deliveryarea_da',
+                'forkey': 'da_cid'
             },
             {
                 'name': 'sgs_cid',
@@ -22,8 +22,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'singnstylist_sgs',
-                'forkey':'sgs_cid'
+                'forkeytab': 'singnstylist_sgs',
+                'forkey': 'sgs_cid'
             },
         ]
     }, {
@@ -36,8 +36,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'deliveryarea_da',
-                'forkey':'da_cid'
+                'forkeytab': 'deliveryarea_da',
+                'forkey': 'da_cid'
             },
         ]
     }, {
@@ -50,8 +50,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'deliveryarea_da',
-                'forkey':'da_cid'
+                'forkeytab': 'deliveryarea_da',
+                'forkey': 'da_cid'
             },
             {
                 'name': 'rdl_cid',
@@ -59,8 +59,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'residential_rdl',
-                'forkey':'rdl_cid'
+                'forkeytab': 'residential_rdl',
+                'forkey': 'rdl_cid'
             },
             {
                 'name': 'fst_cid',
@@ -68,8 +68,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'furniture_style_fst',
-                'forkey':'fst_cid'
+                'forkeytab': 'furniture_style_fst',
+                'forkey': 'fst_cid'
             },
             {
                 'name': 'fps_cid',
@@ -77,8 +77,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'fixtures_progress_fps',
-                'forkey':'fps_cid'
+                'forkeytab': 'fixtures_progress_fps',
+                'forkey': 'fps_cid'
             },
         ]
     }, {
@@ -91,8 +91,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'deliveryarea_da',
-                'forkey':'da_cid'
+                'forkeytab': 'deliveryarea_da',
+                'forkey': 'da_cid'
             },
             {
                 'name': 'rdl_cid',
@@ -100,8 +100,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'residential_rdl',
-                'forkey':'rdl_cid'
+                'forkeytab': 'residential_rdl',
+                'forkey': 'rdl_cid'
             },
             {
                 'name': 'fst_cid',
@@ -109,8 +109,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'furniture_style_fst',
-                'forkey':'fst_cid'
+                'forkeytab': 'furniture_style_fst',
+                'forkey': 'fst_cid'
             },
             {
                 'name': 'fps_cid',
@@ -118,8 +118,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'fixtures_progress_fps',
-                'forkey':'fps_cid'
+                'forkeytab': 'fixtures_progress_fps',
+                'forkey': 'fps_cid'
             },
             {
                 'name': 'sgs_cid',
@@ -127,8 +127,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'singnstylist_sgs',
-                'forkey':'sgs_cid'
+                'forkeytab': 'singnstylist_sgs',
+                'forkey': 'sgs_cid'
             },
             {
                 'name': 'rps_cid',
@@ -136,11 +136,11 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'require_progress_rps',
-                'forkey':'rps_cid'
+                'forkeytab': 'require_progress_rps',
+                'forkey': 'rps_cid'
             },
         ]
-    },{
+    }, {
         'remark': '客户退货单',
         'tablename': 'crej_cj',
         'columns': [
@@ -150,11 +150,11 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'singnstylist_sgs',
-                'forkey':'sgs_cid'
+                'forkeytab': 'singnstylist_sgs',
+                'forkey': 'sgs_cid'
             },
         ]
-    },{
+    }, {
         'remark': '客户补货单',
         'tablename': 'cadd_cad',
         'columns': [
@@ -164,22 +164,22 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'deliveryarea_da',
-                'forkey':'da_cid'
+                'forkeytab': 'deliveryarea_da',
+                'forkey': 'da_cid'
             },
         ]
-    },{
-        'remark':'客户订单变更单',
-        'tablename':'corderchangpos_ccs',
-        'columns':[
+    }, {
+        'remark': '客户订单变更单',
+        'tablename': 'corderchangpos_ccs',
+        'columns': [
             {
                 'name': 'da_cid_old',
                 'remark': '原送货区域编码',
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'deliveryarea_da',
-                'forkey':'da_cid'
+                'forkeytab': 'deliveryarea_da',
+                'forkey': 'da_cid'
             },
             {
                 'name': 'da_cid_new',
@@ -187,8 +187,8 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'deliveryarea_da',
-                'forkey':'da_cid'
+                'forkeytab': 'deliveryarea_da',
+                'forkey': 'da_cid'
             },
             {
                 'name': 'ccs_csignstylistid_old',
@@ -196,22 +196,22 @@ datalist = [
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'singnstylist_sgs',
-                'forkey':'sgs_cid'
+                'forkeytab': 'singnstylist_sgs',
+                'forkey': 'sgs_cid'
             },
         ]
-    },{
-        'remark':'条码表',
-        'tablename':'barcode_bc',
-        'columns':[
+    }, {
+        'remark': '条码表',
+        'tablename': 'barcode_bc',
+        'columns': [
             {
                 'name': 'bc_corder',
                 'remark': '订单号',
                 'type': 'nvarchar(20)',
                 'isnull': False,
                 'default': "''",
-                'forkeytab':'',
-                'forkey':''
+                'forkeytab': '',
+                'forkey': ''
             },
             {
                 'name': 'bc_iporder',
@@ -219,22 +219,22 @@ datalist = [
                 'type': 'int',
                 'isnull': False,
                 'default': "0",
-                'forkeytab':'',
-                'forkey':''
+                'forkeytab': '',
+                'forkey': ''
             },
         ]
-    },{
-        'remark':'产品表',
-        'tablename':'product_pt',
-        'columns':[
+    }, {
+        'remark': '产品表',
+        'tablename': 'product_pt',
+        'columns': [
             {
                 'name': 'pt_mpricea',
                 'remark': '参考售价A',
                 'type': 'decimal(18,5)',
                 'isnull': False,
                 'default': "0",
-                'forkeytab':'',
-                'forkey':''
+                'forkeytab': '',
+                'forkey': ''
             },
             {
                 'name': 'pt_mpriceb',
@@ -242,8 +242,8 @@ datalist = [
                 'type': 'decimal(18,5)',
                 'isnull': False,
                 'default': "0",
-                'forkeytab':'',
-                'forkey':''
+                'forkeytab': '',
+                'forkey': ''
             },
             {
                 'name': 'pt_mpricec',
@@ -251,8 +251,8 @@ datalist = [
                 'type': 'decimal(18,5)',
                 'isnull': False,
                 'default': "0",
-                'forkeytab':'',
-                'forkey':''
+                'forkeytab': '',
+                'forkey': ''
             },
             {
                 'name': 'pt_mpriced',
@@ -260,8 +260,8 @@ datalist = [
                 'type': 'decimal(18,5)',
                 'isnull': False,
                 'default': "0",
-                'forkeytab':'',
-                'forkey':''
+                'forkeytab': '',
+                'forkey': ''
             },
             {
                 'name': 'pt_mpricee',
@@ -269,8 +269,8 @@ datalist = [
                 'type': 'decimal(18,5)',
                 'isnull': False,
                 'default': "0",
-                'forkeytab':'',
-                'forkey':''
+                'forkeytab': '',
+                'forkey': ''
             },
             {
                 'name': 'pt_mpricef',
@@ -278,8 +278,8 @@ datalist = [
                 'type': 'decimal(18,5)',
                 'isnull': False,
                 'default': "0",
-                'forkeytab':'',
-                'forkey':''
+                'forkeytab': '',
+                'forkey': ''
             },
         ]
     },
@@ -289,16 +289,14 @@ iftemp = """--{}
 IF COL_LENGTH('{}','{}') IS NULL
 BEGIN
 {}
-{}
+{}{}
 PRINT '[{}] 完成'
 END
 """
 
 coltemp = "ALTER TABLE {} ADD {} {} {} CONSTRAINT DF_{}_{} DEFAULT {}"
-forkeytemp = """
-ALTER TABLE {}  with check add  constraint [fk_{}_{}] foreign key([{}]) references {} ([{}])
-ALTER TABLE {} check constraint [fk_{}_{}]
-"""
+forkeytemp = """ALTER TABLE {}  with check add  constraint [fk_{}_{}] foreign key([{}]) references {} ([{}])
+ALTER TABLE {} check constraint [fk_{}_{}]"""
 remarktemp = "EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'{}' , \
 @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'{}', @level2type=N'COLUMN',@level2name=N'{}'"
 
@@ -323,11 +321,13 @@ for item in datalist:
             isnull = 'NOT NULL'
         colsql = coltemp.format(tablename, name, typec,
                                 isnull, tablename, name, default)
-        # forkeysql = ''    
-        # if forkeytab != '':
-        #     forkeysql = forkeytemp.format(tablename,tablename,forkeytab,name,forkeytab,forkey,tablename,tablename,forkeytab)
+        forkeysql = ''
+        if forkeytab != '':
+            forkeysql += '\n' + forkeytemp.format(tablename, tablename, forkeytab,
+                                                  name, forkeytab, forkey, tablename, tablename, forkeytab)
         remarksql = remarktemp.format(remark, tablename, name)
-        sql += iftemp.format(remark, tablename, name, colsql, remarksql, index)
+        sql += iftemp.format(remark, tablename, name,
+                             colsql, remarksql, forkeysql, index)
         index += 1
 
 with open(file, 'w', encoding='utf-8-sig') as f:
