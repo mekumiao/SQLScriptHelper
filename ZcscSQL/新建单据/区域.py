@@ -1,9 +1,8 @@
 #
 # 自动生成区域 sql脚本
 # #
-from basePath import GetBasePath
 
-file = '{}区域.sql'.format(GetBasePath())
+file = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\导航、区域、权限\\自动生成\\区域.sql'
 
 oaalist = [
     {

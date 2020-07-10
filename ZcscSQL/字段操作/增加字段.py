@@ -1,4 +1,4 @@
-from basePath import GetBasePath
+
 
 file = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\字段相关\\基础资料定义.sql'
 

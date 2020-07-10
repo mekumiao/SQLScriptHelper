@@ -1,8 +1,6 @@
 #
 # 修改页面配置字段
 # #
-from basePath import GetBasePath
-
 # {
 #     'name': '拆货单',
 #     'pld_cid': '2A',
@@ -11,7 +9,7 @@ from basePath import GetBasePath
 #     'pytc_cename': ['am_beginmanname', ]
 # },
 
-filepath = '{}修改页面设置.sql'.format(GetBasePath())
+filepath = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\导航、区域、权限\\自动生成\\修改页面设置.sql'
 
 strwhere = [{
     'name': '报废单',
