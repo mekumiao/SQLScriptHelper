@@ -1,7 +1,9 @@
 #
 # 控制生成SQL
 # #
-from scriptToJson import GetJson
+
+# from scriptToJson import GetJson
+from mdToJson import GetJson
 from createTabSQL import GetTabSQL
 import json
 import os
@@ -12,6 +14,8 @@ jsonoutpath = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\S
 taboutpath = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\表相关\\'
 # 脚本路径
 scriptpath = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\SQLScript\\{}.txt'
+# makedown路径
+mdpath = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\SQLScript\\{}.md'
 
 # 需要执行的脚本名称
 jsonpath = R'E:\WangYulin\WorkSpace\数据库更新\2020数据库更新\SQLScript\tabset.json'
@@ -21,7 +25,9 @@ with open(jsonpath, 'r', encoding='utf8') as f:
 
 for name in paths:
     # 脚本路径
-    path = scriptpath.format(name)
+    # path = scriptpath.format(name)
+    path = mdpath.format(name)
+
     if os.path.exists(path):
         # 获取json
         jsonfile = GetJson(jsonoutpath, path)

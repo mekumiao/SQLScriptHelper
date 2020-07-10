@@ -11,7 +11,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "所有库存操作的单据日期不能大于服务器日期", # 没用
+        "su_cname": "所有库存操作的单据日期不能大于服务器日期",  # 没用
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -33,7 +33,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "仅考虑已确认预收款", # 完成
+        "su_cname": "仅考虑已确认预收款",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -44,7 +44,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "预收款是否允许金额为0",# 需要前端配合!!!
+        "su_cname": "预收款是否允许金额为0",  # 需要前端配合!!!
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -55,7 +55,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "订单和订货变更单审核检查商品停用和库存", # 完成
+        "su_cname": "订单和订货变更单审核检查商品停用和库存",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -66,7 +66,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "订单中的非标说明在勾上非标时才能输入", # 需要前端配合!!!
+        "su_cname": "订单中的非标说明在勾上非标时才能输入",  # 需要前端配合!!!
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -77,7 +77,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "非标商品条码包含订单信息", # 完成
+        "su_cname": "非标商品条码包含订单信息",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -88,7 +88,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "订单变更单中的非标说明在勾上非标时才能输入 ", # 需要前端配合!!!
+        "su_cname": "订单变更单中的非标说明在勾上非标时才能输入 ",  # 需要前端配合!!!
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -99,7 +99,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "内部调货单选择库存资料不显示订购说明", # 完成
+        "su_cname": "内部调货单选择库存资料不显示订购说明",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -110,7 +110,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订货单(销售单)保存时,客户资料不受专卖店权限控制", # 完成
+        "su_cname": "客户订货单(销售单)保存时,客户资料不受专卖店权限控制",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -121,7 +121,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "销售模块单据必需输入送货区域", # 前端配合
+        "su_cname": "销售模块单据必需输入送货区域",  # 前端配合
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -132,7 +132,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户交期变更可更改已审核销售单", # 已有
+        "su_cname": "客户交期变更可更改已审核销售单",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -143,7 +143,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "内部调货单启用审批", # 已有
+        "su_cname": "内部调货单启用审批",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -154,7 +154,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户意向单保存后更新对应客户资料", # 完成
+        "su_cname": "客户意向单保存后更新对应客户资料",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -165,7 +165,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订货变更单自动关闭客户订单", # 已有
+        "su_cname": "客户订货变更单自动关闭客户订单",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -176,7 +176,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "预收款单确认后不能进行弃审修改", # 完成
+        "su_cname": "预收款单确认后不能进行弃审修改",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -187,7 +187,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "采购计划变更单自动关闭采购计划", # 完成
+        "su_cname": "采购计划变更单自动关闭采购计划",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -198,7 +198,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "采购订单变更单自动关闭采购订单",# 已有
+        "su_cname": "采购订单变更单自动关闭采购订单",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -209,7 +209,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "特价赠品子折率不允许修改", # 前端配合
+        "su_cname": "特价赠品子折率不允许修改",  # 前端配合
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -220,7 +220,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "单据数量只允许整数", # 待定
+        "su_cname": "单据数量只允许整数",  # 待定
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -231,7 +231,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "借还货单审核检查可用库存量(计算指标)", # 完成
+        "su_cname": "借还货单审核检查可用库存量(计算指标)",  # 完成
         "su_ctype": "D",  # D为下拉选项类型
         "su_cdesc": "1",  # 3 已订未出, 2 已销未出, 1 已订未销
         "su_cename": "",
@@ -242,7 +242,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "订货交期审批", # 小燕完成
+        "su_cname": "订货交期审批",  # 小燕完成
         "su_ctype": "1",
         "su_cdesc": "0",
         "su_cename": "",
@@ -253,7 +253,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "内部调货单检查库存可用量(计算指标)", # 已有
+        "su_cname": "内部调货单检查库存可用量(计算指标)",  # 已有
         "su_ctype": "D",  # D为下拉选项类型
         "su_cdesc": "1",  # 3 已订未出, 2 已销未出, 1 已订未销
         "su_cename": "",
@@ -264,7 +264,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "进仓商品说明更新库存备注", # 备注与相关单据保持一致
+        "su_cname": "进仓商品说明更新库存备注",  # 备注与相关单据保持一致
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -275,7 +275,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订货单审核时，单据日期改为审核日期", # 已有
+        "su_cname": "客户订货单审核时，单据日期改为审核日期",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -286,7 +286,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户退货单审核时，单据日期改为审核日期", # 已有
+        "su_cname": "客户退货单审核时，单据日期改为审核日期",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -297,7 +297,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "内部调货单审核时，单据日期改为审核日期", # 已有
+        "su_cname": "内部调货单审核时，单据日期改为审核日期",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -308,7 +308,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "外部调货单审核时，单据日期改为审核日期", # 已有
+        "su_cname": "外部调货单审核时，单据日期改为审核日期",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -319,7 +319,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订单交货期计算使用商品采购总提前期（陆运）", # 小燕完成了
+        "su_cname": "客户订单交货期计算使用商品采购总提前期（陆运）",  # 小燕完成了
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -330,7 +330,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "借货单客户借货按弹出资料选择价格", # 完成
+        "su_cname": "借货单客户借货按弹出资料选择价格",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -341,7 +341,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "预付款不能大于本单欠款金额", # 已有
+        "su_cname": "预付款不能大于本单欠款金额",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -352,7 +352,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "已下采购量非标商品对应的客户订货单行次不能变更", # 完成
+        "su_cname": "已下采购量非标商品对应的客户订货单行次不能变更",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -363,7 +363,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "进出仓操作不产生产品颜色子档", # 完成
+        "su_cname": "进出仓操作不产生产品颜色子档",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -374,7 +374,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户资料受经手人权限管制", # 完成
+        "su_cname": "客户资料受经手人权限管制",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -385,7 +385,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订货单交完款才能审核销售", # 已有
+        "su_cname": "客户订货单交完款才能审核销售",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -396,7 +396,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "采购订货量大于采购计划量允许保存", # 完成
+        "su_cname": "采购订货量大于采购计划量允许保存",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -407,7 +407,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "商品调价单审核更新库存资料参考售价和标价", # 没有这些字段
+        "su_cname": "商品调价单审核更新库存资料参考售价和标价",  # 没有这些字段
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -418,7 +418,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "送货单审核时，单据日期改为审核日期", # 没有送货单
+        "su_cname": "送货单审核时，单据日期改为审核日期",  # 没有送货单
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -429,7 +429,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "备货单审核才能审核送货单", # 没有送货单
+        "su_cname": "备货单审核才能审核送货单",  # 没有送货单
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -440,18 +440,18 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "内部调货单审核检查调出调入库权限", # 已有
+        "su_cname": "内部调货单审核检查调出调入库权限",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
         "su_csubitem": "",
     },
     {
-        "su_cid": "cbatchout", 
+        "su_cid": "cbatchout",
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "出库批号管制", # 已有
+        "su_cname": "出库批号管制",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -462,7 +462,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "进出库单据明细自动分拆成1数量", # 完成
+        "su_cname": "进出库单据明细自动分拆成1数量",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -473,7 +473,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "销售单保存检查成本是否为零", # 完成
+        "su_cname": "销售单保存检查成本是否为零",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -484,7 +484,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订单（变更单）确认后才能审核", # 已有
+        "su_cname": "客户订单（变更单）确认后才能审核",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -495,7 +495,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订货单选择商品时不清空相关说明栏位", # 前端配合
+        "su_cname": "客户订货单选择商品时不清空相关说明栏位",  # 前端配合
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -506,7 +506,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "根据客户合同号进行进出仓", # 改动大
+        "su_cname": "根据客户合同号进行进出仓",  # 改动大
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -517,7 +517,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "库存查询不显示图片", # 前端配合
+        "su_cname": "库存查询不显示图片",  # 前端配合
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -528,7 +528,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订单变更不检查采购计划及订单", # 已有
+        "su_cname": "客户订单变更不检查采购计划及订单",  # 已有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -539,7 +539,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订货单预警天数", # 完成
+        "su_cname": "客户订货单预警天数",  # 完成
         "su_ctype": "T",  # T为输入框
         "su_cdesc": "10",
         "su_cename": "",
@@ -550,7 +550,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订货（销售）单输入时不带入客户折率", # 前端配合
+        "su_cname": "客户订货（销售）单输入时不带入客户折率",  # 前端配合
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -561,7 +561,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订货单审核检查预收金额比例必须大于", # 已有
+        "su_cname": "客户订货单审核检查预收金额比例必须大于",  # 已有
         "su_ctype": "T",  # 1为复选框类型
         "su_cdesc": "30",  # 0未选中
         "su_cename": "",
@@ -572,7 +572,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "不允许相关单据更新客户资料", # 功能暂时没有
+        "su_cname": "不允许相关单据更新客户资料",  # 功能暂时没有
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -583,7 +583,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "商品调价单更新产品资料的标准进价", # 完成
+        "su_cname": "商品调价单更新产品资料的标准进价",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "1",  # 0未选中
         "su_cename": "",
@@ -594,7 +594,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订单依送货区域单双号送货", # 完成
+        "su_cname": "客户订单依送货区域单双号送货",  # 完成
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -605,7 +605,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "数据窗口使用格子线", # 前端配合
+        "su_cname": "数据窗口使用格子线",  # 前端配合
         "su_ctype": "1",  # 1为复选框类型
         "su_cdesc": "0",  # 0未选中
         "su_cename": "",
@@ -616,7 +616,7 @@ data = [
         "su_cmodeid": "1",
         "su_ccls": "m",
         "su_cclsname": "其他参数2",
-        "su_cname": "客户订货单默认交货天数：", # 需要前端配合 [客户订货单的交货日期默认后推 0 天]
+        "su_cname": "客户订货单默认交货天数：",  # 需要前端配合 [客户订货单的交货日期默认后推 0 天]
         "su_ctype": "T",  #
         "su_cdesc": "0",  #
         "su_cename": "",
@@ -673,3 +673,11 @@ for item in data:
 sql = trantemp.format(sql)
 with open(file, 'w') as f:
     f.write(sql)
+
+# txt = ''
+# for item in data:
+#     su_cname = item['su_cname']
+#     txt += "--{}\n".format(su_cname)
+
+# with open('其他设置2-v.txt', 'w') as f:
+#     f.write(txt)
