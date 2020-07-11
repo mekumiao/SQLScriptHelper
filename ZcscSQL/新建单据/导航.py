@@ -121,6 +121,9 @@ funlist = [
     },{
         'fl_clevel': '0537',
         'fl_cfuncdes': '期间重算',
+    },{
+        'fl_clevel': '0418',
+        'fl_cfuncdes': '期间重算',
     },
 ]
 

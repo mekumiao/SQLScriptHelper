@@ -453,7 +453,30 @@ oaalist = [
             'oaa_cname': '查询最大期数',
             'oaa_capi': 'StockService/SearchTopStclose',
             'oaa_cremake': '期间重算'
-        },]
+        }, ]
+    }, {
+        'remake': '送货单',
+        'data': [{
+            'oaa_cid': 'v_shipInfo',
+            'oaa_cname': '送货单主表',
+            'oaa_capi': 'ShipService/SearchShipByView',
+            'oaa_cremake': '送货单'
+        }, {
+            'oaa_cid': 'v_shipcInfo',
+            'oaa_cname': '送货单子表',
+            'oaa_capi': 'ShipService/SearchShipcByView',
+            'oaa_cremake': '送货单'
+        }, {
+            'oaa_cid': 'v_shipMakeInfoAll',
+            'oaa_cname': '平衡视图',
+            'oaa_capi': 'ShipService/SearchShipAllByView',
+            'oaa_cremake': '送货单'
+        }, {
+            'oaa_cid': 'v_shipInfoSum',
+            'oaa_cname': '全表汇总',
+            'oaa_capi': 'ShipService/GetShipInfoSum',
+            'oaa_cremake': '送货单'
+        }]
     },
 ]
 

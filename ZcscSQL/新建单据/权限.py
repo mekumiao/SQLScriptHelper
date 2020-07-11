@@ -47,6 +47,9 @@ common = [
     },
 ]
 
+#
+# 设置权限apis
+# ##
 authlist = [
     {
         'pl_clevel': '0418',
@@ -67,7 +70,11 @@ authlist = [
 
 
 iftemp = "if not exists(select * from popelist_pl where pl_clevel='{}')\n"
-instemp = "insert into popelist_pl values ('{}','{}','{}','{}')\n"
+instemp = """begin
+insert into popelist_pl values ('{}','{}','{}','{}')
+print '[{}] 完成'
+end
+"""
 
 sql = '/*\n序号用于快速定位,非正常执行语句\n*/\n'
 index = 1
@@ -75,12 +82,15 @@ index = 1
 for item in authlist:
     sql += '\n--{}\n'.format(item['pl_cfuncdes'])
     sql += iftemp.format(item['pl_clevel'])
-    sql += instemp.format(item['pl_clevel'], '', item['pl_cfuncdes'], '')
+    sql += instemp.format(item['pl_clevel'], '',
+                          item['pl_cfuncdes'], '', index)
+    index += 1
     for i in range(len(item['apis'])):
         level = item['pl_clevel'] + str(i+1).rjust(2, '0')
         sql += iftemp.format(level)
         sql += instemp.format(level, common[i]
-                              ['pl_cpopeid'], common[i]['pl_cfuncdes'], item['apis'][i])
+                              ['pl_cpopeid'], common[i]['pl_cfuncdes'], item['apis'][i], index)
+        index += 1
 
 with open(file, 'w') as f:
     f.write(sql)
