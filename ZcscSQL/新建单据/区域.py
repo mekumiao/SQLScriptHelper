@@ -472,11 +472,26 @@ oaalist = [
             'oaa_capi': 'ShipService/SearchShipAllByView',
             'oaa_cremake': '送货单'
         }, {
-            'oaa_cid': 'v_shipInfoSum',
+            'oaa_cid': 'DTO_shipInfoSum',
             'oaa_cname': '全表汇总',
             'oaa_capi': 'ShipService/GetShipInfoSum',
             'oaa_cremake': '送货单'
-        }]
+        }, {
+            'oaa_cid': 'v_shipsalebyView',
+            'oaa_cname': '销售单资料',
+            'oaa_capi': 'ShipService/SearchShipSaleByView',
+            'oaa_cremake': '送货单'
+        }, {
+            'oaa_cid': 'v_shipcorderbyView',
+            'oaa_cname': '订单资料',
+            'oaa_capi': 'ShipService/SearchShipCorderByView',
+            'oaa_cremake': '送货单'
+        }, {
+            'oaa_cid': 'v_shipchildbyView',
+            'oaa_cname': '销售单商品,订货单商品',
+            'oaa_capi': 'ShipService/SearchShipChildByView',
+            'oaa_cremake': '送货单'
+        }, ]
     },
 ]
 

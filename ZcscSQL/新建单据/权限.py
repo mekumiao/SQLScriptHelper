@@ -54,6 +54,8 @@ authlist = [
     {
         'pl_clevel': '0418',
         'pl_cfuncdes': '送货单',
+        'query_clevel': '0419',
+        'query_cfuncdes': '送货单查询',
         'apis': [
             'ShipService/SearchShipByView',
             'ShipService/CreateShipSpcByView',
@@ -91,6 +93,10 @@ for item in authlist:
         sql += instemp.format(level, common[i]
                               ['pl_cpopeid'], common[i]['pl_cfuncdes'], item['apis'][i], index)
         index += 1
+    sql += iftemp.format(item['query_clevel'])
+    sql += instemp.format(item['query_clevel'], '',
+                          item['query_cfuncdes'], '', index)
+    index += 1
 
 with open(file, 'w') as f:
     f.write(sql)

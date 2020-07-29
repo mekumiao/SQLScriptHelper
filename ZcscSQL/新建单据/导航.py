@@ -123,7 +123,10 @@ funlist = [
         'fl_cfuncdes': '期间重算',
     },{
         'fl_clevel': '0418',
-        'fl_cfuncdes': '期间重算',
+        'fl_cfuncdes': '送货单',
+    },{
+        'fl_clevel': '0419',
+        'fl_cfuncdes': '送货单查询',
     },
 ]
 

@@ -1,6 +1,6 @@
 
 
-file = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\字段相关\\基础资料定义.sql'
+file = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\字段相关\\新增字段\\新增-{}-{}.sql'
 
 datalist = [
     {
@@ -38,6 +38,20 @@ datalist = [
                 'default': "''",
                 'forkeytab': 'deliveryarea_da',
                 'forkey': 'da_cid'
+            },
+        ]
+    }, {
+        'remark': '销售单子表',
+        'tablename': 'salesc_ssc',
+        'columns': [
+            {
+                'name': 'ssc_mshipqty',
+                'remark': '送货数量',
+                'type': 'decimal(18,5)',
+                'isnull': False,
+                'default': "0",
+                'forkeytab': '',
+                'forkey': ''
             },
         ]
     }, {
@@ -282,6 +296,34 @@ datalist = [
                 'forkey': ''
             },
         ]
+    },{
+        'remark': '送货单子表',
+        'tablename': 'shipc_sipc',
+        'columns': [
+            {
+                'name': 'sipc_mpayamt',
+                'remark': '金额',
+                'type': 'decimal(18,5)',
+                'isnull': False,
+                'default': "0",
+                'forkeytab': '',
+                'forkey': ''
+            },
+        ]
+    },{
+        'remark': '货币资料',
+        'tablename': 'syscoin_sc',
+        'columns': [
+            {
+                'name': 'sc_currentRate',
+                'remark': '实时汇率',
+                'type': 'decimal(18,5)',
+                'isnull': False,
+                'default': "1",
+                'forkeytab': '',
+                'forkey': ''
+            },
+        ]
     },
 ]
 
@@ -300,13 +342,13 @@ ALTER TABLE {} check constraint [fk_{}_{}]"""
 remarktemp = "EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'{}' , \
 @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'{}', @level2type=N'COLUMN',@level2name=N'{}'"
 
-sql = '/*\n添加 普通字段\n序号用于快速定位,非正常执行语句\n*/\n'
-index = 1
 
 for item in datalist:
     remarktb = item['remark']
     tablename = item['tablename']
     cols = item['columns']
+    index = 1
+    sql = '/*\n添加 普通字段\n序号用于快速定位,非正常执行语句\n*/\n'
     sql += "\n--<<{}>>\n".format(remarktb)
     for col in cols:
         name = col['name']
@@ -329,6 +371,7 @@ for item in datalist:
         sql += iftemp.format(remark, tablename, name,
                              colsql, remarksql, forkeysql, index)
         index += 1
-
-with open(file, 'w', encoding='utf-8-sig') as f:
-    f.write(sql)
+    filept = file.format(remarktb, tablename)
+    with open(filept, 'w', encoding='utf-8-sig') as f:
+        f.write(sql)
+        print(filept)
