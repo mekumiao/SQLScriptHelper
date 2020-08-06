@@ -67,6 +67,22 @@ authlist = [
             'ShipService/UnAuthShip',
         ],
         'child': []
+    },{
+        'pl_clevel': '0115',
+        'pl_cfuncdes': '系统日志',
+        'query_clevel': '0115',
+        'query_cfuncdes': '系统日志查询',
+        'apis': [
+            'SysLogService/SearchSyslog',
+            '',
+            '',
+            'SysLogService/DeleteSyslog',
+            '',
+            '',
+            '',
+            '',
+        ],
+        'child': []
     }
 ]
 

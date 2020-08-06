@@ -127,6 +127,9 @@ funlist = [
     },{
         'fl_clevel': '0419',
         'fl_cfuncdes': '送货单查询',
+    },{
+        'fl_clevel': '0115',
+        'fl_cfuncdes': '系统日志',
     },
 ]
 

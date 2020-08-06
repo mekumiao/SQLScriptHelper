@@ -492,7 +492,28 @@ oaalist = [
             'oaa_capi': 'ShipService/SearchShipChildByView',
             'oaa_cremake': '送货单'
         }, ]
-    },
+    }, {
+        'remake': '系统日志',
+        'data': [{
+            'oaa_cid': 'syslog_lg',
+            'oaa_cname': '系统日志',
+            'oaa_capi': 'SysLogService/SearchSyslog',
+            'oaa_cremake': '系统日志'
+        }]
+    }, {
+        'remake': '库存异动单',
+        'data': [{
+            'oaa_cid': 'v_stchanCorderByView',
+            'oaa_cname': '指定客户订单',
+            'oaa_capi': 'StchanService/SearchStchanCorderByView',
+            'oaa_cremake': '库存异动单'
+        }, {
+            'oaa_cid': 'v_stchanCordercByView',
+            'oaa_cname': '指定客户订单子表',
+            'oaa_capi': 'StchanService/SearchStchanCordercByView',
+            'oaa_cremake': '库存异动单'
+        }]
+    }
 ]
 
 
@@ -527,3 +548,4 @@ for item in oaalist:
 sql += but
 with open(file, 'w') as f:
     f.write(sql)
+print(file)

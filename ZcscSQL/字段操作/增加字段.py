@@ -1,6 +1,6 @@
 
 
-file = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\字段相关\\新增字段\\新增-{}-{}.sql'
+file = 'E:\\WangYulin\\WorkSpace\\数据库更新\\2020数据库更新\\字段相关\\新增字段\\新增字段-{}-{}.sql'
 
 datalist = [
     {
@@ -296,7 +296,7 @@ datalist = [
                 'forkey': ''
             },
         ]
-    },{
+    }, {
         'remark': '送货单子表',
         'tablename': 'shipc_sipc',
         'columns': [
@@ -310,7 +310,7 @@ datalist = [
                 'forkey': ''
             },
         ]
-    },{
+    }, {
         'remark': '货币资料',
         'tablename': 'syscoin_sc',
         'columns': [
@@ -320,6 +320,28 @@ datalist = [
                 'type': 'decimal(18,5)',
                 'isnull': False,
                 'default': "1",
+                'forkeytab': '',
+                'forkey': ''
+            }, {
+                'name': 'sc_ccoding',
+                'remark': '货币标识符',
+                'type': 'nvarchar(20)',
+                'isnull': False,
+                'default': "''",
+                'forkeytab': '',
+                'forkey': ''
+            },
+        ]
+    }, {
+        'remark': '系统日志',
+        'tablename': 'syslog_lg',
+        'columns': [
+            {
+                'name': 'lg_cendport',
+                'remark': '客户端IP',
+                'type': 'nvarchar(40)',
+                'isnull': False,
+                'default': "''",
                 'forkeytab': '',
                 'forkey': ''
             },
